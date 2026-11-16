@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: classpath:changelog/changes/000-create-tables.sql
+  - include:
+      file: classpath:changelog/changes/001-insert-dummy-data.sql
